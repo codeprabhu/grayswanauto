@@ -1,0 +1,36 @@
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# Browser profiles
+.browser-profile/
+.firefox-profile/
+browser_profile/
+playwright/.auth/
+storage_state.json
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Runtime data
+*.log
+logs/
+automator_state.json
+data/*.sqlite3*
+data/*.json
+data/*.png
+checkpoints/
+
+# Temporary files
+*.tmp
+*.bak
+.DS_Store
